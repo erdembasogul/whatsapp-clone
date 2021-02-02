@@ -1,5 +1,5 @@
 # whatsapp-clone
-react-native typescript
+react-native typescript (for now only frontend) 
 
 
 <div style="display: flex; flex-direction: row;">
