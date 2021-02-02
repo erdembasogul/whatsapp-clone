@@ -29,25 +29,17 @@ const ChatListItem = (props: ChatListItemProps) => {
     return (
         <TouchableNativeFeedback  onPress={onClick}>
             <View style={styles.container}>
-            <View style={styles.leftContainer}>
-                <Image source={{ uri: user.imageUri }} style={styles.avatar} />
-                <View style={styles.midContainer}>
-                    <Text style={styles.username}>{user.name}</Text>
-                    <Text style={styles.lastMessage}>{chatRoom.lastMessage.content}</Text>
+                <View style={styles.leftContainer}>
+                    <Image source={{ uri: user.imageUri }} style={styles.avatar} />
+                    <View style={styles.midContainer}>
+                        <Text style={styles.username}>{user.name}</Text>
+                        <Text style={styles.lastMessage}>{chatRoom.lastMessage.content}</Text>
+                    </View>
                 </View>
+                <Text style={styles.time}>
+                    {moment(chatRoom.lastMessage.createdAt).format("DD/MM/YYYY")}
+                </Text>
             </View>
-            <Text style={styles.time}>
-                {moment(chatRoom.lastMessage.createdAt).format("DD/MM/YYYY")}
-            </Text>
-        </View>
-        <View
-            style={{
-                marginLeft: 83,
-                marginRight: 15,
-                borderBottomColor: '#E3E3E4',
-                borderBottomWidth: 1,
-            }}
-        />
         </TouchableNativeFeedback>
     )
 }

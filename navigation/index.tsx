@@ -66,7 +66,7 @@ function RootNavigator() {
         options={({ route }) => ({
           headerTitle: 
           (<View style={{flexDirection:"row"}}>
-              <Image style={{marginLeft: -30 , width: 40, height: 40, borderRadius: 50 }} source={{ uri: route.params.image }} />
+              <Image style={{ width: 40, height: 40, borderRadius: 50 }} source={{ uri: route.params.image }} />
               <View  style={{flexDirection:"column", paddingLeft: 10}}>
                 <Text style={{color: 'white'}}>{route.params.name}</Text>
                 <View style={{flexDirection:"row"}}>

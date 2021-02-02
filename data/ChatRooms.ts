@@ -2,11 +2,11 @@ export default [{
     id: '1',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u2',
-      name: 'Fatih',
+      name: 'Michael',
       imageUri: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb',
     }],
     lastMessage: {
@@ -18,11 +18,11 @@ export default [{
     id: '2',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u3',
-      name: 'Enes',
+      name: 'Shannon',
       imageUri: 'https://uifaces.co/our-content/donated/IPh6PTBx.jpg',
     }],
     lastMessage: {
@@ -34,27 +34,27 @@ export default [{
     id: '3',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u4',
-      name: 'Omer',
+      name: 'Ryan',
       imageUri: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTAyNTAzMTA4OTJeQTJeQWpwZ15BbWU3MDA4NDI2Njk@._V1_UX172_CR0,0,172,256_AL_.jpg',
     }],
     lastMessage: {
       id: 'm3',
-      content: 'Hi, Erdem.',
+      content: 'Hi, Gerald.',
       createdAt: '2020-10-02T14:48:00.000Z',
     }
   }, {
     id: '4',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u5',
-      name: 'Yakup',
+      name: 'Wilbert',
       imageUri: 'https://uifaces.co/our-content/donated/VUMBKh1U.jpg',
     }],
     lastMessage: {
@@ -66,11 +66,11 @@ export default [{
     id: '5',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u6',
-      name: 'Elon Musk',
+      name: 'Samuel',
       imageUri: 'https://randomuser.me/api/portraits/men/92.jpg',
     }],
     lastMessage: {
@@ -82,11 +82,11 @@ export default [{
     id: '6',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u7',
-      name: 'Kemal',
+      name: 'John',
       imageUri: 'https://randomuser.me/api/portraits/men/90.jpg',
     }],
     lastMessage: {
@@ -98,11 +98,11 @@ export default [{
     id: '7',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u8',
-      name: 'Adem',
+      name: 'Joe',
       imageUri: 'https://uifaces.co/our-content/donated/9-mQNf2U.jpg',
     }],
     lastMessage: {
@@ -114,11 +114,11 @@ export default [{
     id: '8',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u9',
-      name: 'Mom',
+      name: 'Hortencia',
       imageUri: 'https://images.unsplash.com/photo-1541710430735-5fca14c95b00?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ',
     }],
     lastMessage: {
@@ -130,11 +130,11 @@ export default [{
     id: '9',
     users: [{
       id: 'u1',
-      name: 'Erdem',
+      name: 'Gerald',
       imageUri: 'https://randomuser.me/api/portraits/men/80.jpg',
     }, {
       id: 'u10',
-      name: 'Angelina Jolie',
+      name: 'Robert',
       imageUri: 'https://images.unsplash.com/photo-1476956207128-beccf17c1771?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=52bbdebca6084fffac43984574db3038',
     }],
     lastMessage: {
